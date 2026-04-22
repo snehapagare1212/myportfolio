@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sneha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#s1">Home</a></li>
+                    <li><a href="#s2">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="#s4">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection" id="s1">
+            <div class="leftsection">
+                Hi , My name is <span class="purple">Sneha</span>
+                <div>and i am a passionate </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="resume.pdf" download><button class="btn" >Download Resume</button></a>
+                    <button class="btn" onclick="window.open('https://github.com/snehapagare1212')" >Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png.png">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection" id="s2">
+            <h1>About Me</h1>
+            <p>Motivated third-year BSc Cyber Security student with a strong interest in Full Stack Web Development.
+                Possesses basic knowledge of cybersecurity along with developing skills in front-end and back-end
+                technologies. Passionate about building secure, responsive, and user-friendly web applications. A quick
+                learner with good problem-solving and teamwork skills, eager to gain practical experience and grow as a
+                Full Stack Developer.</p>
+
+            <h1>Qualifications</h1>
+
+
+        </section>
+
+        <section class="thirdsection">
+
+            <div class="left">
+                <h3>Bsc.Cyber Security</h3>
+
+
+                <p>I am currently pursuing a Bachelor of Science in Cyber Security at Birla College of Arts, Science and
+                    Commerce. My studies have helped me develop a strong foundation in cybersecurity concepts such as
+                    network security, ethical hacking, and data protection.</p>
+            </div>
+
+            <div class="right">
+                <h3>Full Stack Web development in python</h3>
+
+
+                <p>I completed a Full Stack Development with Python course from Keerti Computer Institute, where I
+                    learned
+                    front-end and back-end development using HTML, CSS, JavaScript, Python, and basic database concepts.
+                    .</p>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="footer" id="s4">
+            <div class="footer-first">
+                <h3>Contact Information</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Contact No</li>
+                    <li>9004075681</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Email-Id</li>
+                    <li>snehapagare866@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>linkedin</li>
+                    <li><a href="https://www.linkedin.com/in/sneha-pagare-700343321">www.linkedin.com/in/sneha-pagare</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="footerr">
+            Copyright &#169; www.snehasportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Cyber Security student,', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+*
+{
+    
+    background-color: rgb(17, 2, 29);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin: 0;
+    padding: 0;
+}
+
+
+nav h2
+{
+     
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+   color: white;
+  background-color: rgb(135, 57, 203);
+
+padding-top: 15px ;
+  
+   position:fixed;
+   z-index: 1000;
+
+
+ 
+  
+}
+
+
+
+
+.left{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left img
+{
+position: relative;
+width: 600px;
+height: 300px;
+border: 5px solid rgb(75, 26, 93);
+padding-bottom: 50px;
+margin: 50px;
+border-radius: 5px;
+margin-top: 10%;
+}
+.left img:hover
+{
+ border-color: rgb(216, 202, 216);
+ cursor: pointer;
+}
+
+.text{
+    position: absolute;
+    top: 60%;
+    left: 19%;
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+.text img{
+    position: absolute;
+    top: 15%;
+    right: 100%;
+    width: 23px;
+    height: 20px;
+    padding: 0;
+    border: 0;
+    margin:0;
+    
+
+}
+
+
+.right
+{
+    color: white;
+    width: 600px;
+    margin-top: 180px;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+hr{
+
+    margin: 40px 85px;
+}
+
+
+
+
+.sleft{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sleft img
+{
+position: relative;
+width: 600px;
+height: 300px;
+border: 5px solid rgb(75, 26, 93);
+padding-bottom: 50px;
+margin: 50px;
+border-radius: 5px;
+margin-top: 5%;
+}
+.sleft img:hover
+{
+    border-color: rgb(216, 202, 216);
+    cursor: pointer;
+}
+
+.stext{
+    position: absolute;
+    top: 123%;
+    left: 17%;
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+.stext img{
+    position: absolute;
+    top: 15%;
+    right: 100%;
+    width: 23px;
+    height: 20px;
+    padding: 0;
+    border: 0;
+    margin:0;
+    
+
+}
+
+
+.sright
+{
+    color: white;
+    width: 600px;
+    margin-top: 80px;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+
+
+.tleft{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tleft img
+{
+position: relative;
+width: 600px;
+height: 300px;
+border: 5px solid rgb(75, 26, 93);
+padding-bottom: 50px;
+margin: 50px;
+border-radius: 5px;
+margin-top: 5%;
+}
+.tleft img:hover
+{
+    border-color: rgb(216, 202, 216);
+    cursor: pointer;
+}
+
+.thirdtext{
+    position: absolute;
+    top: 192%;
+    left: 18%;
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+.thirdtext img{
+    position: absolute;
+    top: 15%;
+    right: 100%;
+    width: 23px;
+    height: 20px;
+    padding: 0;
+    border: 0;
+    margin:0;
+    
+
+}
+
+
+.tright
+{
+    color: white;
+    width: 600px;
+    margin-top: 80px;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
