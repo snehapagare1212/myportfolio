@@ -220,6 +220,7 @@ margin-top: 5%;
     .sleft,
     .tleft {
         flex-direction: column;
+        align-items: center;
         text-align: center;
         padding: 100px 20px 30px;
         gap: 20px;
@@ -230,9 +231,10 @@ margin-top: 5%;
     .tleft img {
         width: 100%;
         max-width: 350px;
+        margin: 0 auto;
+        display: block;
     }
 
-    
     .right,
     .sright,
     .tright {
