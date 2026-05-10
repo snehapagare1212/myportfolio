@@ -213,4 +213,91 @@ footer
 
 
 
+@media screen and (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 10px;
+    }
+
+    .left {
+        font-size: 1.3rem;
+    }
+
+    .firstsection {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 130px;
+        padding: 0 20px;
+    }
+
+    .firstsection > div {
+        width: 100%;
+    }
+
+    .leftsection {
+        font-size: 2rem;
+    }
+
+    .leftsection .btn {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .rightsection img {
+        width: 80%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    hr {
+        margin: 30px 20px;
+    }
+
+    .secondsection h1,
+    .secondsection h3,
+    .secondsection p {
+        max-width: 90vw;
+        text-align: center;
+    }
+
+    .secondsection p {
+        font-size: 18px;
+    }
+
+    .thirdsection {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .left p,
+    .right p {
+        font-size: 18px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    footer {
+        height: auto;
+    }
+}
+
+
+
+
+
 
