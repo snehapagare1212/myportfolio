@@ -205,3 +205,59 @@ margin-top: 5%;
     font-size: 1.5rem;
     margin-left: 5px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+
+    nav h2 {
+        font-size: 1.3rem;
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    .left,
+    .sleft,
+    .tleft {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 20px 30px;
+        gap: 20px;
+    }
+
+    .left img,
+    .sleft img,
+    .tleft img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    
+    .right,
+    .sright,
+    .tright {
+        width: 100%;
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+    .text,
+    .stext,
+    .thirdtext {
+        position: static;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .text img,
+    .stext img,
+    .thirdtext img {
+        position: static;
+        width: 20px;
+        height: 20px;
+    }
+
+    hr {
+        margin: 30px 20px;
+    }
+}
